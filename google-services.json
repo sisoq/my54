@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "426974602137",
+    "project_id": "amagamhub",
+    "storage_bucket": "amagamhub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426974602137:android:6fa39c753ce1072b2ba908",
+        "android_client_info": {
+          "package_name": "com.ayoubhassnaoui.amagamhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhZ-u1R51Huf5oikEH3CJvJ3NXlYT3zg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426974602137:android:4e4ea0c2e1067f3d2ba908",
+        "android_client_info": {
+          "package_name": "com.ayoubhassnaouii.amagamhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhZ-u1R51Huf5oikEH3CJvJ3NXlYT3zg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
