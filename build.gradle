@@ -1,0 +1,34 @@
+
+// Define repositories for project dependencies
+allprojects {
+    repositories {
+        google()  // تأكد من وجود هذا المستودع
+        mavenCentral()
+    }
+}
+
+
+// Define build script dependencies and configurations
+buildscript {
+    repositories {
+        google() // Add Google's Maven repository if not configured
+        // Add other repositories if needed, like mavenCentral()
+    }
+    dependencies {
+        // Add Google Services Gradle plugin dependency
+        classpath 'com.google.gms:google-services:4.4.1'
+        // Add other dependencies as needed
+    }
+}
+
+// Configure root project and subprojects
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(':app')
+}
+
+// Define a clean task to delete build directory
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
